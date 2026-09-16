@@ -3,8 +3,8 @@ body{
 }
 .container{
     background-color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .card{
     font-family: 'Times New Roman', Times, serif !important;
@@ -14,7 +14,9 @@ body{
 .btn{
     background-color: orangered !important;
     border-radius: 10px !important;
-    width: 10% !important;
+    width: 15% !important;
+    margin-bottom: 5px;
+    margin-left: auto;
 }
 .navbar{
     position: fixed;
