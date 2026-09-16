@@ -1,0 +1,27 @@
+body{
+    background-color: r;
+}
+.container{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 2rem !important;
+    background-color: black !important;
+}
+.btn{
+    background-color: orangered !important;
+    border-radius: 10px !important;
+    width: 10% !important;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-left: 100px;
+    width: 100%;
+    padding-right: 100px;
+    z-index: 1000;
+}
