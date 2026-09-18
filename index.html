@@ -12,41 +12,62 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-black" id="home">
-        <nav class="navbar  bg-black">
+    <div class="container" id="home">
+        <nav class="navbar navbar-expand-md bg-black d-flex">
             <a class="navbar-brand"
                 style="color: orangered; font-family: 'Times New Roman', Times, serif; font-size: 20px;"
                 href="#">KUMAR</a>
-            <ul class="navbar-nav  d-flex flex-row flex-grow-1 justify-content-end" style="gap: 10px !important;">
-                <li class="nav-item">
-                    <a class="nav-link active" style="color: white; " aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="#">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href=""></a>
-                </li>
-            </ul>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse " id="navbarMenu">
+                <ul class="navbar-nav d-flex  flex-grow-1 justify-content-end"
+                    style="gap: 10px !important; color: orangered;">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: white; " aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#exp">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#skils">Skills</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#details">Details</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <div class="home" style="height: 100vh; padding-top: 100px;">
-            <div class="row">
-                <div class="card  col-lg-6 col-sm-12" style="height: 600px; padding-top: 30px;">
-                    <p class="text-white " style="text-align: end;">Hello</p>
-                    <p class="text-white" style="line-height: 60px; text-align: end;">I am <br><span
-                            style="color: orangered;">Praveen
+        <div class="home   d-flex  align-items-center justify-content-center "
+            style="min-height: 90vh;  padding-top: 38px; box-sizing: border-box;">
+
+            <div class="row g-0 w-100">
+                <hr>
+                <div class="cad bg-black col-lg-6 col-md-12 border-0">
+
+                    <img style=" height: 500px ; width: 100%;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdCId4RD_YFh55L-lJvtNFWrU42tV5ScTCAr-6sJo0kA&s=10"
+                        alt="">
+                </div>
+                <div class="cad bg-black col-lg-6 col-md-12  "
+                    style="padding: 40px; padding-top: 100px; font-family: 'Times New Roman', Times, serif !important;">
+                    <p class="text-white ">Hello</p>
+                    <p class="text-white" style="line-height: 60px;">I am <br><span style=" color: orangered;">Praveen
                             Kumar</span><br> A web Developer
                     </p>
                     <button class="btn">Hire
@@ -54,228 +75,300 @@
                     <button class="btn">My
                         works</button>
                 </div>
-                <div class="card col-lg-6 col-sm-12 ">
-                    <img style="padding-right: 40px; height: 500px ;"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdCId4RD_YFh55L-lJvtNFWrU42tV5ScTCAr-6sJo0kA&s=10"
-                        alt="">
-                </div>
             </div>
         </div>
-        <div class="about" id="about">
-            <hr>
-            <div class="content">
-                <div>
-                    <img src="images/WhatsApp_Image_2026-06-02_at_20.32.50-removebg-preview.png" alt="">
+        <div class="about  d-flex align-items-center justify-content-center "
+            style="min-height: 100vh;  padding-top: 55px; box-sizing: border-box;" id="about">
+
+            <div class="row g-0 w-100">
+                <hr>
+                <div class="col-lg-6 col-md-10 col-sm-12">
+                    <div class="card   d-flex align-items-center bg-black"
+                        style="justify-content: center; padding-bottom: 100px; border: none;">
+                        <img src="images/WhatsApp_Image_2026-06-02_at_20.32.50-removebg-preview.png" alt=""
+                            style="height: 500px; width: 400px;">
+                    </div>
                 </div>
 
-                <div class="card">
-                    <h1 class="h1">About Me</h1>
-                    <p style="width: 30rem;">I am a passionate and motivated CSE graduate with a strong interest in
-                        software
-                        development and
-                        technology.
-                    </p>
-                    <table class="info">
-                        <tr>
-                            <td>Name:</td>
-                            <td class="td">Praveen Kumar</td>
-                        </tr>
-                        <tr>
-                            <td>Date of Birth(DOB):</td>
-                            <td class="td"> 31-12-2004</td>
-                        </tr>
-                        <tr>
-                            <td>Address:</td>
-                            <td class="td">Guntur, Andhra Pradesh</td>
-                        </tr>
-                        <tr>
-                            <td>Mobile Number:</td>
-                            <td class="td">+91-8639456987</td>
-                        </tr>
-                        <tr>
-                            <td>Email:</td>
-                            <td class="td">praveenkumar78157815@gmail.com</td>
-                        </tr>
-                    </table>
+                <div class="col-lg-6 col-md-10 col-sm-12">
+                    <div class="car bg-black p-5"
+                        style="font-size: 1.5rem !important;color: white !important;  height: 500px;">
+                        <h1 class="h1" style="color: orangered;">About Me</h1>
+                        <p style="width: 30rem;">I am a passionate and motivated CSE graduate with a strong interest in
+                            software
+                            development and
+                            technology.
+                        </p>
+                        <table class="info">
+                            <tr>
+                                <td>Name:</td>
+                                <td class="td">Praveen Kumar</td>
+                            </tr>
+                            <tr>
+                                <td>Date of Birth(DOB):</td>
+                                <td class="td"> 31-12-2004</td>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td class="td">Guntur, Andhra Pradesh</td>
+                            </tr>
+                            <tr>
+                                <td>Mobile Number:</td>
+                                <td class="td">+91-8639456987</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td class="td">praveenkumar78157815@gmail.com</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="education" id="education">
+        <div class="education   " style="min-height: 100vh;  padding-top: 55px; box-sizing: border-box;" id="education">
             <hr>
-            <h1 class="h1">Education</h1>
-            <div style="text-align: center; margin-bottom: 10px;"><i style=" font-size: 26px;">From classrooms to
+
+            <h1 class="h1"
+                style="text-align: center; color: orangered; font-family: 'Times New Roman', Times, serif !important;">
+                Education</h1>
+            <div style="text-align: center; margin-bottom: 10px; color: white;"><i style=" font-size: 26px;">From
+                    classrooms to
                     real-world
                     possibilities</i>
             </div>
-            <div class="content">
+            <div class="edu  d-flex align-items-center justify-content-center">
+                <div class="row g-2">
+                    <div class="col-lg-6 col-md-4 col-sm-12">
+                        <div class="card h-100 p-3">
+                            <h1>2022-2026</h1>
+                            <p class="subheading">B Tech in CSE</p>
+                            <p class="subheading">Sri Mittapalli College of Engineering</p>
+                            <p>Pursued my B.Tech in Computer Science and Engineering, building a strong foundation in
+                                programming
+                                and
+                                software development.
+                                Developed practical skills through academic projects, technical training, and hands-on
+                                problem-solving.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-sm-12 ">
+                        <div class="card h-100 p-3">
+                            <h1 class="h1">2020-2022</h1>
+                            <p class="subheading">Intermediate Level</p>
+                            <p class="subheading">Narayana Junior College</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo incidunt perferendis
+                                numquam
+                                eos
+                                accusamus
+                                natus architecto nobis animi facilis vel neque quos saepe ut ratione magnam tenetur,
+                                error
+                                similique
+                                ad.
+                            </p>
+                        </div>
 
-                <div class="cards">
-                    <div class="scard">
-                        <h1>2022-2026</h1>
-                        <p class="subheading">B Tech in CSE</p>
-                        <p class="subheading">Sri Mittapalli College of Engineering</p>
-                        <p>Pursued my B.Tech in Computer Science and Engineering, building a strong foundation in
-                            programming
-                            and
-                            software development.
-                            Developed practical skills through academic projects, technical training, and hands-on
-                            problem-solving.
-                        </p>
                     </div>
-                    <div class="scard">
-                        <h1 class="h1">2020-2022</h1>
-                        <p class="subheading">Intermediate Level</p>
-                        <p class="subheading">Narayana Junior College</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo incidunt perferendis numquam
-                            eos
-                            accusamus
-                            natus architecto nobis animi facilis vel neque quos saepe ut ratione magnam tenetur, error
-                            similique
-                            ad.
-                        </p>
-                    </div>
-                    <div class="scard">
-                        <h1 class="h1">2020</h1>
-                        <p class="subheading">Secondary Education</p>
-                        <p class="subheading">Z.P.H.S Uppalapadu</p>
-                        <p>Completed my schooling in 2020 from Z.P.H.S Uppalapadu with good knowledge.</p>
+                    <div class="col-lg-6 col-md-4 col-sm-12 ">
+                        <div class="card h-100 p-3 ">
+                            <h1 class="h1">2020</h1>
+                            <p class="subheading">Secondary Education</p>
+                            <p class="subheading">Z.P.H.S Uppalapadu</p>
+                            <p>Completed my schooling in 2020 from Z.P.H.S Uppalapadu with good knowledge.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="experience" id="experience">
+        <div class="experience"
+            style="min-height: 100vh;font-family: 'Times New Roman', Times, serif !important; padding-top:  55px;  box-sizing: border-box;"
+            id="exp">
             <hr>
-            <h1 class="h1">Experience</h1>
-            <div class="exp1">
-                <h2>Pyhton Full Stack Trainee At Codegnan IT
-                    Solutions</h2>
-                <p style="font-size: 1rem; margin-left: 10px;">Completed hands-on training in Python Full Stack
-                    Development, gaining practical experience in
-                    building web applications using Python, Flask, HTML, CSS, JavaScript, and MySQL. Worked on
-                    developing backend functionality, integrating databases, creating responsive web pages, and
-                    implementing CRUD operations while following structured development practices</p>
-                <ul>
-                    <li>Completed Python Full Stack Development training at Codegnan, covering Python, HTML, CSS,
-                        JavaScript, SQL, and Flask
-                    </li>
-                    <li>
-                        Developed web applications and backend features using Python, Flask, MySQL, HTML, CSS, and
-                        JavaScript.
+            <h1 class="h1" style="color: orangered; text-align: center;">Experience</h1>
+            <div class="training  d-flex align-items-center justify-content-center">
+                <div class="row col-12">
+                    <div class="exp1">
+                        <h2 style="color: skyblue;">Pyhton Full Stack Trainee At Codegnan IT
+                            Solutions</h2>
+                        <p style="font-size: 1rem; color: white; margin-left: 10px;">Completed hands-on training in
+                            Python Full Stack
+                            Development, gaining practical experience in
+                            building web applications using Python, Flask, HTML, CSS, JavaScript, and MySQL. Worked on
+                            developing backend functionality, integrating databases, creating responsive web pages, and
+                            implementing CRUD operations while following structured development practices</p>
+                        <ul style="color: white;">
+                            <li>Completed Python Full Stack Development training at Codegnan, covering Python, HTML,
+                                CSS,
+                                JavaScript, SQL, and Flask
+                            </li>
+                            <li>
+                                Developed web applications and backend features using Python, Flask, MySQL, HTML, CSS,
+                                and
+                                JavaScript.
 
-                    </li>
-                    <li>
-                        Gained practical experience in database integration, CRUD operations, REST APIs, debugging, and
-                        project development
-                    </li>
-                </ul>
+                            </li>
+                            <li>
+                                Gained practical experience in database integration, CRUD operations, REST APIs,
+                                debugging,
+                                and
+                                project development
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="projects" id="projects">
+        <div class="projects" id="projects"
+            style="min-height: 100vh;color: white;  font-family: 'Times New Roman', Times, serif !important; padding-top: 55px;">
             <hr>
-            <h1 class="h1">Projects</h1>
-            <div class="project">
-                <h1 class="h1">Market Pulse</h1>
-                <p>Developed a Python-based analytics platform to analyze product sales, customer transactions, and
-                    market
-                    trends. Used Python and data analysis techniques to identify high-demand products, evaluate sales
-                    performance, perform customer sentiment analysis, calculate trend scores, and generate meaningful
-                    reports to support data-driven business decisions.</p>
-                <ul>
-                    <li>Analyzed product sales and customer transaction data using Python, Pandas, and NumPy to identify
-                        sales patterns and high-demand products</li>
-                    <li>Implemented customer sentiment analysis and trend scoring to identify trending products and
-                        evaluate
-                        market performance
-                    </li>
-                    <li>
-                        Generated data-driven reports and insights to support product ranking, demand analysis, and
-                        business
-                        decision-making
-                    </li>
-                </ul>
-            </div>
-            <div class="project">
-                <h1 class="h1">College Placements System</h1>
-                <p>A College Placement Management System (CPMS) is a software solution designed to automate and
-                    streamline
-                    the campus recruitment process for educational institutions. By moving away from inefficient manual
-                    record-keeping, it establishes a centralized platform where students, Training & Placement Officers
-                    (TPOs), and recruiters can seamlessly interact and manage data.</p>
-                <ul>
-                    <li> Designed and implemented a relational database schema using SQL consisting of optimized tables
-                        for
-                        students, companies, job postings, and applications with strictly enforced entity-relationship
-                        constraints.</li>
-                    <li> Developed complex SQL queries and stored procedures to automate candidate shortlisting,
-                        reducing
-                        the TPO (Training and Placement Officer) manual filtering workload by eliminating ineligible
-                        profiles based on dynamic CGPA and backlog criteria.</li>
-                    <li>Created optimized aggregated queries and joins to generate real-time placement analytics,
-                        including
-                        department-wise selection rates, hiring trends, and average package insights for administrative
-                        audits</li>
-                </ul>
+            <h1 class="h1" style="text-align: center; color: orangered; ">Projects</h1>
+            <div class="row g-3">
+                <div class="project col-10 mx-auto">
+                    <h1 class="h1" style="color: skyblue;">Market Pulse</h1>
+                    <p>Developed a Python-based analytics platform to analyze product sales, customer transactions, and
+                        market
+                        trends. Used Python and data analysis techniques to identify high-demand products, evaluate
+                        sales
+                        performance, perform customer sentiment analysis, calculate trend scores, and generate
+                        meaningful
+                        reports to support data-driven business decisions.</p>
+                    <ul>
+                        <li>Analyzed product sales and customer transaction data using Python, Pandas, and NumPy to
+                            identify
+                            sales patterns and high-demand products</li>
+                        <li>Implemented customer sentiment analysis and trend scoring to identify trending products and
+                            evaluate
+                            market performance
+                        </li>
+                        <li>
+                            Generated data-driven reports and insights to support product ranking, demand analysis, and
+                            business
+                            decision-making
+                        </li>
+                    </ul>
+                </div>
+                <div class="project col-10 mx-auto">
+                    <h1 class="h1" style="color: skyblue;">College Placements System</h1>
+                    <p>A College Placement Management System (CPMS) is a software solution designed to automate and
+                        streamline
+                        the campus recruitment process for educational institutions. By moving away from inefficient
+                        manual
+                        record-keeping, it establishes a centralized platform where students, Training & Placement
+                        Officers
+                        (TPOs), and recruiters can seamlessly interact and manage data.</p>
+                    <ul>
+                        <li> Designed and implemented a relational database schema using SQL consisting of optimized
+                            tables
+                            for
+                            students, companies, job postings, and applications with strictly enforced
+                            entity-relationship
+                            constraints.</li>
+                        <li> Developed complex SQL queries and stored procedures to automate candidate shortlisting,
+                            reducing
+                            the TPO (Training and Placement Officer) manual filtering workload by eliminating ineligible
+                            profiles based on dynamic CGPA and backlog criteria.</li>
+                        <li>Created optimized aggregated queries and joins to generate real-time placement analytics,
+                            including
+                            department-wise selection rates, hiring trends, and average package insights for
+                            administrative
+                            audits</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="skills" id="skills">
+        <div class="skills " id="skils"
+            style="min-height: 100vh; padding-top: 55px; font-family: 'Times New Roman', Times, serif !important;">
             <hr>
-            <h1 class="h1">Skills</h1>
+            <h1 class="h1" style="color: orangered; text-align: center;">Skills</h1>
             <center>
-                <p><i>The tools, frameworks, and technologies I use to bring ideas to life</i></p>
+                <p><i style="color: skyblue;">The tools, frameworks, and technologies I use to bring ideas to life</i>
+                </p>
             </center>
-            <div class="skills-navbar">
-                <button>HTML</button>
-                <button>CSS</button>
-                <button>JAVASCRIPT</button>
-                <button>REACT</button>
-                <button>PYTHON</button>
-                <button>FLASK</button>
-                <button>MYSQL</button>
+            <div class="skills-navbar bg-black d-flex  align-items-center g-3"
+                style="justify-content: space-around; margin-top: 40px;">
+                <div class="row g-5 " style="padding: 10px;">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <button>HTML</button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <button>CSS</button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <button>JVASCRIPT</button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <button>REACT</button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <button>PYTHON</button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <button>DJANGO</button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <button>MYSQL</button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <button>GENAI</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="information" id="details">
+        <div class="details "
+            style="min-height: 100vh;font-family: 'Times New Roman', Times, serif !important; padding-top: 38px;"
+            id="details">
             <hr>
-            <h1 class="h1">Contact Info</h1>
-            <div class="details">
-                <div class="contact_card">
-                    <b>Address</b>
-                    <br>
-                    <div class="icon">
-                        <i class="fa-solid fa-location-dot"></i>
+            <h1 class="h1" style="color: orangered;">Contact Info</h1>
+            <div class="row  g-2">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact_card  mx-auto d-flex flex-column justify-content-around align-items-center">
+                        <b>Address</b>
+                        <br>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <p>street no.3 Addagutta Society Phase 6 JNTU Hyderabad Telangana</p>
                     </div>
-                    <p>street no.3 Addagutta Society Phase 6 JNTU Hyderabad Telangana</p>
                 </div>
-                <div class="contact_card">
-                    <b>Contact Number</b>
-                    <br>
-                    <div class="icon">
-                        <i class="fa-solid fa-phone"></i>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact_card  mx-auto d-flex flex-column justify-content-around align-items-center">
+                        <b>Contact Number</b>
+                        <br>
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <p>+91 8639456987</p>
                     </div>
-                    <p>+91 8639456987</p>
                 </div>
-                <div class="contact_card">
-                    <b>Email Address</b>
-                    <br>
-                    <div class="icon">
-                        <i class="fa-solid fa-envelope"></i>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact_card  mx-auto d-flex flex-column justify-content-around align-items-center">
+                        <b>Email Address</b>
+                        <br>
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <p>praveenkumar78157815@gmail.com</p>
                     </div>
-                    <p>praveenkumar78157815@gmail.com</p>
                 </div>
-                <div class="contact_card">
-                    <b>Linked In </b>
-                    <br>
-                    <div class="icon">
-                        <i class="fa-brands fa-linkedin"></i>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact_card  mx-auto d-flex flex-column justify-content-around align-items-center">
+                        <b>Linked In </b>
+                        <br>
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <p><u>praveen_kumar_3115</u></p>
                     </div>
-                    <p><u>praveen_kumar_3115</u></p>
                 </div>
-
 
             </div>
-            <script src="https://kit.fontawesome.com/9dca480122.js" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-                crossorigin="anonymous"></script>
+
+
+        </div>
+        <script src="https://kit.fontawesome.com/9dca480122.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
